@@ -62,10 +62,8 @@
                             RADIUS:
                         </div>
                         <div class="col-md-7">
-                            <!-- 
-                            <input type="radio" id="m1" name="mile" value="1 Mile" (click)="getMiles('One Mile')"> 1 MILE &nbsp;
-                            <input type="radio" id="m2" name="mile" value="3 Miles" (click)="getMiles('Three Miles')"> 3 MILES &nbsp;
-                 -->
+                            <input disabled type="radio" id="m1" name="mile" value="1 Mile" (click)="getMiles('One Mile')"> 1 MILE &nbsp;
+                            <input disabled type="radio" id="m2" name="mile" value="3 Miles" (click)="getMiles('Three Miles')"> 3 MILES &nbsp;
                             <input type="radio" id="m3" name="mile" value="5 Miles" checked="checked" (click)="getMiles('Five Miles')"> 5 MILES
                         </div>
                     </div>
@@ -126,7 +124,7 @@
                     THIS PARTNERSHIP WILL NEED TO GENERATE
                     <br /> NET CASH FLOW OF
                     <br />
-                    <span class="greenColor">{{ gross_cash_flow_wo_expenses | currency:'USD' : true : '2.0-0' }} TO PAYOUT</span>
+                    <span class="greenColor">{{ partnership_raise | currency:'USD' : true : '2.0-0' }} TO PAYOUT</span>
                     <br /> ** AFTER: TERMS - PRODUCTION EXPENSES - TAXES **
                 </div>
             </div>
