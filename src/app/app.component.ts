@@ -28,8 +28,8 @@ export class AppComponent implements OnInit {
   public state: string;
   public lat: number;
   public long: number;
-  public lati = 31.7383217;
-  public longi = -101.9890111;
+  public lati = 28.9001843;
+  public longi = -97.9204604;
   public previous: number = -1;
   public current: number = -1;
   public isOpen = true;
