@@ -123,7 +123,7 @@ export class AppComponent implements OnInit {
       this.latlong.pop();
     }
 
-    /*
+    
     if (miles === "One Mile") {
       this.wellapplicationservices.getOneMileJSON().subscribe(
         JSONlat => {
@@ -223,10 +223,7 @@ export class AppComponent implements OnInit {
           this.store_display(this.current);
         }
       );
-    }
-*/
 
-    if (miles === "Five Mile") {
       this.wellapplicationservices.getFiveMilesJSON().subscribe(
         JSONlat => {
           for (var i = 0; i < JSONlat.length; i++) {

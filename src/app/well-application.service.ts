@@ -9,7 +9,7 @@ import 'rxjs/add/operator/catch';
 export class WellApplicationServices {
     constructor(private http: Http) {
     }
-/*
+
     public getOneMileJSON() {
         return this.http.get('assets/WellDetails.json')
             .map((response: Response) => {
@@ -23,7 +23,7 @@ export class WellApplicationServices {
                 return response.json().ThreeMiles;
             })
     }
-*/
+
     public getFiveMilesJSON() {
         return this.http.get('assets/WellDetails.json')
             .map((response: Response) => {
