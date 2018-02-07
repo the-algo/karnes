@@ -78,7 +78,7 @@ export class AppComponent implements OnInit {
   public oil_price = 60;
   public gas_price = 3;
 
-  public partner_name = "LC GoOpCo Midland #1, LP";
+  public partner_name = "LC GoOpCo Karnes #1, LP";
 
   public well_count: number;
   public latlong = [];
