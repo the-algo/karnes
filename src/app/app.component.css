@@ -93,22 +93,22 @@ i:active:after {
 }
 
 .round.round-lg {
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-    font-size: 2.3em;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
 .round.hollow {
     display: inline-block;
-    height: 100px;
-    width: 100px;
-    line-height: 100px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
     background-color: #FFF;
     color: rgba(8, 173, 63, 0.75);
     text-align: center;
